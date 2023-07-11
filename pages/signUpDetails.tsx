@@ -26,12 +26,12 @@ const SignUpDetails: NextPage = () => {
           alt=""
           src="/birth.svg"
         />
-        <div className="absolute top-[595px] left-[17px] rounded-lg bg-blue w-[464px] h-9 overflow-hidden text-center text-xl text-white">
+        <div className="absolute top-[595px] left-[17px] rounded-lg bg-blue w-[464px] cursor-pointer h-9 overflow-hidden text-center text-xl text-white">
           <div className="absolute top-[4px] left-[159px] inline-block w-[146px] h-7">
             Sign up
           </div>
         </div>
-        <div className="absolute top-[343px] left-[24px] rounded-lg box-border w-[464px] h-9 overflow-hidden text-dimgray border-[1px] border-solid border-lightgray">
+        <div className="absolute top-[343px] left-[24px] rounded-lg box-border w-[464px] cursor-pointer h-9 overflow-hidden text-dimgray border-[1px] border-solid border-lightgray">
           <div className="absolute top-[9px] left-[25px] inline-block w-[152px] h-[18px]">
             Select
           </div>
@@ -41,7 +41,7 @@ const SignUpDetails: NextPage = () => {
             src="/vec.svg"
           />
         </div>
-        <div className="absolute top-[440px] left-[24px] rounded-lg box-border w-[464px] h-9 overflow-hidden text-dimgray border-[1px] border-solid border-lightgray">
+        <div className="absolute top-[440px] left-[24px] rounded-lg box-border w-[464px] cursor-pointer h-9 overflow-hidden text-dimgray border-[1px] border-solid border-lightgray">
           <div className="absolute top-[9px] left-[25px] inline-block w-[152px] h-[18px]">
             Select
           </div>
@@ -51,16 +51,16 @@ const SignUpDetails: NextPage = () => {
             src="/vec.svg"
           />
         </div>
-        <div className="absolute top-[549px] left-[49px] text-dimgray inline-block w-[100px] h-[18px]">
+        <div className="absolute top-[549px] left-[49px] text-dimgray inline-block w-[100px] h-[18px] cursor-pointer">
           Interviewee
         </div>
-        <div className="absolute top-[549px] left-[208px] inline-block w-[100px] h-[18px]">
+        <div className="absolute top-[549px] left-[208px] inline-block w-[100px] h-[18px] cursor-pointer">
           Interviewer
         </div>
-        <div className="absolute top-[549px] left-[367px] inline-block w-[100px] h-[18px]">
+        <div className="absolute top-[549px] left-[367px] inline-block w-[100px] h-[18px] cursor-pointer">
           Hybrid mode
         </div>
-        <div className="absolute top-[177px] left-[24px] rounded-lg box-border w-[464px] h-9 overflow-hidden text-dimgray border-[1px] border-solid border-lightgray">
+        <div className="absolute top-[177px] left-[24px] rounded-lg box-border w-[464px] cursor-pointer h-9 overflow-hidden text-dimgray border-[1px] border-solid border-lightgray">
           <div className="absolute top-[9px] left-[25px] inline-block w-[152px] h-[18px]">
             Select
           </div>
@@ -79,7 +79,7 @@ const SignUpDetails: NextPage = () => {
         <div className="absolute top-[645px] left-[228px] text-[24px] text-gray-200 text-center inline-block w-[41px] h-[26px]">
           or
         </div>
-        <div className="absolute top-[693px] left-[17px] rounded-lg bg-white box-border w-[464px] h-12 overflow-hidden text-xl text-gray-200 border-[1px] border-solid border-silver">
+        <div className="absolute top-[693px] left-[17px] cursor-pointer rounded-lg bg-white box-border w-[464px] h-12 overflow-hidden text-xl text-gray-200 border-[1px] border-solid border-silver">
           <div className="absolute top-[13px] left-[150px] inline-block w-[212px] h-[25px]">
             Sign up with LinkedIn
           </div>

@@ -35,7 +35,7 @@ const SignUp: NextPage = () => {
           alt=""
           src="/dot.svg"
         />
-        <div className="absolute top-[605px] left-[17px] rounded-lg bg-blue w-[464px] h-9 overflow-hidden text-center text-xl text-white">
+        <div className="absolute top-[605px] left-[17px] cursor-pointer rounded-lg bg-blue w-[464px] h-9 overflow-hidden text-center text-xl text-white">
           <div className="absolute top-[4px] left-[159px] inline-block w-[146px] h-7">
             Next
           </div>
@@ -60,7 +60,7 @@ const SignUp: NextPage = () => {
         <div className="absolute top-[654px] left-[228px] text-[24px] text-gray-200 text-center inline-block w-[41px] h-[26px]">
           or
         </div>
-        <div className="absolute top-[693px] left-[17px] rounded-lg bg-white box-border w-[464px] h-12 overflow-hidden text-xl text-gray-200 border-[1px] border-solid border-silver">
+        <div className="absolute top-[693px] cursor-pointer left-[17px] rounded-lg bg-white box-border w-[464px] h-12 overflow-hidden text-xl text-gray-200 border-[1px] border-solid border-silver">
           <div className="absolute top-[13px] left-[150px] inline-block w-[212px] h-[25px]">
             Sign up with LinkedIn
           </div>

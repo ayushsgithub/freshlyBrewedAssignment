@@ -3,9 +3,9 @@ import type { NextPage } from "next";
 const LandingPage: NextPage = () => {
   return (
     <div className="relative bg-white w-full h-[1024px] overflow-hidden text-center text-5xl text-black font-product-sans">
-      <div className="absolute top-[16px] left-[61px] text-[40px] font-semibold font-poppins text-left inline-block w-[249px] h-[53px]">
+      <div className="absolute top-[16px] left-[61px] text-[40px] cursor-pointer font-semibold font-poppins text-left inline-block w-[249px] h-[53px]">
         <span>Lean</span>
-        <span className="text-blue">Prep</span>
+        <span className="text-blue hover:text-purple-800">Prep</span>
       </div>
       <div className="absolute top-[calc(40%_-_35px)] left-[calc(50%_-_508px)] inline-block w-[1016px] h-[127px] text-dimgray">
         <span>{`Welcome to `}</span>
@@ -24,22 +24,22 @@ const LandingPage: NextPage = () => {
           <b>practice makes perfect!</b>
         </p>
       </div>
-      <div className="absolute top-[20px] left-[1050px] flex flex-row p-2.5 items-start justify-start">
+      <div className="absolute top-[20px] left-[1050px] cursor-pointer flex flex-row p-2.5 items-start justify-start">
         <div className="relative">Pricing</div>
       </div>
-      <div className="absolute top-[20px] left-[902px] flex flex-row p-2.5 items-start justify-start">
+      <div className="absolute top-[20px] left-[902px] cursor-pointer flex flex-row p-2.5 items-start justify-start">
         <div className="relative">About us</div>
       </div>
-      <div className="absolute top-[25px] left-[1180px] rounded-mini box-border w-[152px] h-[39px] flex flex-row py-2.5 px-0 items-center justify-center gap-[10px] text-blue border-[1px] border-solid border-blue">
+      <div className="absolute top-[25px] left-[1180px] hover:bg-blue hover:text-white cursor-pointer rounded-mini box-border w-[152px] h-[39px] flex flex-row py-2.5 px-0 items-center justify-center gap-[10px] text-blue border-[1px] border-solid border-blue">
         <div className="relative">Demo</div>
-        <img className="relative w-8 h-8" alt="" src="./videocamera.svg" />
+        <img className="relative w-8 h-8 hover:bg-blue animate-pulse hover:text-white" alt="" src="./videocamera.svg" />
       </div>
-      <div className="absolute top-[530px] left-[500px] rounded-mini bg-blue w-[413px] flex flex-row py-2.5 pr-0 pl-2.5 box-border items-center justify-center text-[32px] text-white">
-        <div className="relative inline-block w-[310px] shrink-0">
+      <div className="absolute top-[530px] left-[500px] cursor-pointer  rounded-mini bg-blue w-[413px] flex flex-row py-2.5 pr-0 pl-2.5 box-border items-center justify-center text-[32px] text-white">
+        <div className="relative inline-block w-[310px] cursor-pointer shrink-0">
           Join our Program
         </div>
       </div>
-      <div className="absolute top-[622px] left-[765px] [text-decoration:underline] inline-block w-[90px] h-[26px]">
+      <div className="absolute top-[622px] left-[765px] cursor-pointer [text-decoration:underline] inline-block w-[90px] h-[26px]">
         Login
       </div>
       <img
