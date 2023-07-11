@@ -1,38 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Next.js project/assignment for Freshly Brewed.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project, follow the steps below:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure you have the following software installed on your machine:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Node.js (version 12 or above)
+- npm (Node Package Manager) or Yarn
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Installation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```shell
+   git clone https://github.com/ayushsgithub/freshlyBrewedAssignment.git
 
-## Learn More
+2. Navigate to the project directory:
+    ```shell
+    cd your-repository
+3. Install the dependencies:
+    ```shell
+    npm install or yarn install
 
-To learn more about Next.js, take a look at the following resources:
+### Development:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To start the development server, run the following command:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    npm run dev or yarn dev
 
-## Deploy on Vercel
+You can use these routes:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+/signUp
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+/signIn
+
+/signUpDetails
+
+### Contributing
+
+Thank you for considering contributing to this project! To contribute, follow these steps:
+
+    1. Fork the repository on GitHub.
+    2. Create a new branch with a descriptive name:
+    
+    git checkout -b feature/my-new-feature
+
+
+### Github repo:
+https://github.com/ayushsgithub/freshlyBrewedAssignment
+
+### Deployed Link:
+https://freshly-brewed-assignment.vercel.app/
+
+
